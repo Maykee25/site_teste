@@ -88,6 +88,8 @@ header p{
 
 #formulario{
     background-color: rgb(233, 229, 229);
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 @media(min-width: 992px){
@@ -114,6 +116,11 @@ header p{
         justify-content: space-between;
         align-items: center;
         padding: 80px;
+    }
+
+    #formulario{
+        display: flex;
+        flex-direction: row;
     }
 
 }
